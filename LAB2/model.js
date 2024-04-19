@@ -72,3 +72,5 @@ function log()
         alert("Такий email не зареєстрований");
       }
 }   
+
+
