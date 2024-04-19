@@ -4,3 +4,6 @@
 
 Загальне завдання: розробити функціональність для статичних сторінок Web-додатку першої
 лабораторної роботи із використанням шаблону MVC.
+
+Посилання на файл звіту:
+https://docs.google.com/document/d/12rBpWIXkHmRJ8x4__Sf7CaOK5j4mAu7XT7JoIUDSOUA/edit?usp=sharing
