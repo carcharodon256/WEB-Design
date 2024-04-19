@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Account</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="controller.js"></script>
+    <script src="model.js"></script>
+	<script src="view.js"></script>
+	<style type="text/css">
+        
+
+		table {
+			margin: auto;
+			border-collapse: collapse;
+			
+			width: 60%;
+			text-align: left;
+			background-color: white;
+			font-family: Arial;
+			font-size: 16px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+		}
+		th, td {
+			padding: 12px;
+			border: 2px solid silver;
+		}
+		th {
+			background-color: #4CAF50;
+			color: #f2f2f2;
+		}
+	</style>
+</head>
+<body onload="profile()">
+<div class="container-fluid">
+    <div class="bg-image">
+        <nav class="navbar navbar-expand-md navbar-light custom-navbar sticky-top">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><img src="logo.png" class="logo">Calculator</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="index.html" class="nav-link">Головна</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">Про сайт</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="sign.html" class="nav-link">Реєстрація</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="log.html" class="nav-link">Вхід</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="profile.html" class="nav-link">Профіль</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+            
+        <main style="height: 1920px;">
+            <table style="margin-top: 200px;">
+                <tr>
+                    <td>Name</td>
+                    <td id="name">-</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td id="email">-</td>
+            </table>
+        </main>
+    </div>
+</div>
+</body>
+</html>
