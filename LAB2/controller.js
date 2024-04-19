@@ -4,3 +4,6 @@ function login(){
 function registration(){
   reg();
 }
+function profile(){
+  prof();
+}
